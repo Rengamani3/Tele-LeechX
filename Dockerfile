@@ -27,7 +27,7 @@ RUN chmod 0775 /app/gautam/gclone
 RUN pip install -U pip
 
 COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
